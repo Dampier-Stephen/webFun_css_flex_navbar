@@ -1,0 +1,38 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    padding:0;
+}
+
+.center-box {
+    background: rgb(102, 147, 234);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* this is fun, the ul wraps to new line instead of li. Kinda like that.  */
+    flex-flow: row wrap; 
+}
+
+h1 {
+    color: white;
+}
+
+ul {
+    list-style: none;
+    display: inline-flex;
+    
+}
+
+a.nav:link,
+a.nav:visited,
+a.nav:hover, 
+a.nav:active {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.logo {
+    height: 50px;
+    margin: 0 20px;
+}
